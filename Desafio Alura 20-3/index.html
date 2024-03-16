@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Decodificador De Texto - Challenge 1 Alura</title>
+    <link rel="stylesheet" href="./style/style.css">
+</head>
+<body>
+    <header>
+        <img src="./assets/logo_alura.svg" alt="Logo Alura">
+        
+        <img  src="./assets/alur Chalenge.png" alt="Logo Alura Challenge">
+    </header>
+
+    <main>
+        <section class="criptografia">
+            <div class="texto_entrada">
+                <label for="entrada"><h1>Digite seu texto:</h1></label>
+                <textarea id="entrada" placeholder="Digite seu texto" aria-label="Texto de entrada"></textarea>
+            </div>
+
+            <div class="botoes">
+                <button id="botaoCriptografar" class="botao1" disabled>Criptografar</button>
+                <button id="botaoDescriptografar" class="botao2" disabled>Descriptografar</button>
+            </div>
+        </section>
+
+        <section id="painelSaida" class="painel_saida" aria-live="polite" aria-atomic="true"></section>
+    </main>
+
+    <footer class="rodape">
+        <p>Desenvolvido por Vitor Bizzetto.</p>
+    </footer>
+
+    <script src="criptografia.js" defer></script>
+</body>
+</html>
